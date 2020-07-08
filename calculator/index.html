@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PHP Calculator</title>
+</head>
+<body>
+	<form method="post" action="calc.php">
+		<label>
+			First number:
+			<input type="text" name="number1">
+		</label>
+		<label>
+			Second number:
+			<input type="text" name="number2">
+		</label>
+		<br>
+		Operation:
+		<br>
+		<label>
+			<input type="radio" name="operation" value="sum">
+			Sum
+		</label>
+		<label>
+			<input type="radio" name="operation" value="subtract">
+			Subtract
+		</label>
+		<label>
+			<input type="radio" name="operation" value="multiply">
+			Multiply
+		</label>
+		<label>
+			<input type="radio" name="operation" value="divide">
+			Divide
+		</label>
+		<br>
+		<input type="submit" value="Calculate">
+	</form>
+</body>
+</html>
